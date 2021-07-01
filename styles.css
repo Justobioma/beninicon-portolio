@@ -1,0 +1,67 @@
+/* MASTER STYLES */
+body {
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+header .intro {
+  position: relative;
+}
+
+header .intro .head {
+  position: absolute;
+  top: -15%;
+  left: 70%;
+  height: 90%;
+  transform: translate(-50%, 50%);
+}
+
+header .navbar .navbar-nav .nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #2ecc71;
+  transition: width 0.3s;
+}
+
+header .navbar .navbar-nav .nav-link:hover::after {
+  width: 60%;
+  height: 2px;
+  background-color: #2ecc71;
+  transition: width 0.3s;
+  border-bottom: 2px solid #27ae60;
+}
+
+header .navbar .navbar-nav i {
+  font-size: 1.2rem;
+  color: #7aca8d;
+  cursor: pointer;
+}
+
+h2 {
+  font-weight: 800;
+  color: #fff;
+}
+
+h6 {
+  font-weight: 400;
+  left: 70%;
+  color: #fff;
+}
+
+p {
+  font-weight: 500;
+  color: #fff;
+}
+
+hr {
+  background: #27ae60;
+  color: #27ae60;
+  height: 0.07rem;
+}
