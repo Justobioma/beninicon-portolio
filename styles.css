@@ -44,6 +44,14 @@ header .navbar .navbar-nav i {
   cursor: pointer;
 }
 
+.slideshow {
+  position: relative;
+  width: 100%;
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  padding: 40px 100px;
+}
+
 h2 {
   font-weight: 800;
   color: #fff;
