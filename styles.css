@@ -4,6 +4,11 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -87,9 +92,12 @@ header .navbar .navbar-nav i {
 .slideshow {
   position: relative;
   width: 100%;
-  /* padding-left: 100px;
-  padding-right: 100px; */
-  padding: 40px 100px;
+
+  /* padding: 40px 100px; */
+}
+
+.carousel-item {
+  height: 500px;
 }
 
 h2 {
