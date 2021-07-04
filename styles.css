@@ -95,7 +95,15 @@ header .navbar .navbar-nav i {
 
   /* padding: 40px 100px; */
 }
+.subscription .row {
+  display: flex;
+  background-color: #defadb;
+}
 
+.subscription .row .sub input {
+  outline: none;
+  border: 1px solid #6caa7f;
+}
 .carousel-item {
   height: 500px;
 }
@@ -107,7 +115,7 @@ h2 {
 
 h4 {
   font-weight: 200;
-  color: #fff;
+  color: #000;
 }
 
 h6 {
@@ -118,9 +126,18 @@ h6 {
 
 p {
   font-weight: 500;
-  color: #fff;
+  color: #000;
 }
 
+button {
+  background: #6caa7f;
+  border-style: none;
+  padding: 0.7rem 1.3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
 hr {
   background: #27ae60;
   color: #27ae60;
