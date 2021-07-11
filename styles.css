@@ -92,6 +92,7 @@ header .navbar .navbar-nav i {
 .slideshow {
   position: relative;
   width: 100%;
+  margin-top: 20px;
 
   /* padding: 40px 100px; */
 }
@@ -111,9 +112,7 @@ header .navbar .navbar-nav i {
 .footer {
   background: #f8f8f8;
   left: 70%;
-  margin: 10px;
-  padding: 5px;
-
+  padding-top: 8px;
   box-sizing: border-box;
 }
 
